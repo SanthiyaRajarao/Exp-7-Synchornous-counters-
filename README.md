@@ -46,9 +46,14 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
-
-
+```
+Open a new project using Quartus II.
+Declare the inputs and outputs inside module projname().
+Set the reset value using register.
+Use commands like begin and end to stimulate the counter.
+For Up counter increment the count and for Down counter decrement the count.
+End the verilog programming
+```
 
 ### PROGRAM 
 ```
